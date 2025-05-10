@@ -1,0 +1,43 @@
+/* productos.css */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .producto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .producto img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .producto h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .producto p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .producto strong {
+    color: #2e8b57;
+    font-size: 1.2em;
+  }
+  
